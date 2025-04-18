@@ -42,13 +42,23 @@ Antes de começar, é recomendável ter:
    - `git pull`
    - `git clone`
 
-## Criando e manipulando branches:
+## Criando e manipulando branches (branch criado Change_ReadMe):
    - `git branch`
    - `git checkout`
    - `git merge`
 
-7. Resolvendo conflitos
-8. Boas práticas
+## Resolvendo conflitos
+
+- Antes de efetuar merge na `main`, teste as alterações e resolva conflitos com atenção.
+
+## Boas práticas
+
+- Faça commits pequenos e frequentes, com mensagens claras e objetivas.
+- Sempre atualize a branch local com `git pull` antes de iniciar o trabalho.
+- Use `.gitignore` para evitar o versionamento de arquivos desnecessários (como logs e binários).
+- Nunca faça commit de senhas, tokens ou dados sensíveis.
+- Escreva mensagens de commit no imperativo, por exemplo: `Adiciona validação de formulário`.
+- Revise o histórico de commits com `git log` antes de enviar alterações.
 
 ## Como usar este repositório
 
